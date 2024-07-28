@@ -1,0 +1,79 @@
+body{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	height:100vh;
+	margin:0;
+	font-family:Roboto, sans-serif;
+}
+
+ul{
+	display:flex;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	gap:1em;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+
+}
+
+.img-cat-meme{
+	max-width:300px;
+	max-height:150px;
+}
+
+.img-cat-meme img{
+	width:100%;
+	height:100%;
+}
+
+
+.hero{ 
+	display:flex;
+	flex-direction:column;
+	background: #1F2937; 
+	width:100%;
+	height:30em;
+	color:white;
+}
+
+.header,.para-hero{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+	padding: 1em 20em;	
+}
+
+.para-hero{
+	max-width:100em;
+	padding: 8em 20em;	
+}
+
+.para-hero-main{
+	display:flex;
+	flex-direction:column;
+	max-width:20em;
+}
+
+.logo{	
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.para-hero-text{
+	font-weight:bold;
+	font-size:48px;
+	font-weight:800px;
+
+}
+
+.para-hero-button{
+	max-width:8em;
+	flex-shrink:0;
+}
+
+
