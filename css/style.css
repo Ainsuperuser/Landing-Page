@@ -59,12 +59,13 @@ button:hover{
 .para-hero1{
 	font-size:48px;
 	font-weight:bold;
+	padding:10px 0;
 }
 
 .para-hero2{
 	font-size:18px;
 	color: #E5E7EB;
-	padding:10px;
+	padding-bottom:10px;
 
 }
 
